@@ -1,0 +1,209 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+nav { 
+    background-color: #212121;
+}
+header {
+    position: relative;
+}
+.container {
+    width: 1140px;
+}
+
+nav .menu {
+    height: 50px;
+    padding: 0 70px;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    
+}
+
+nav a.menu__item {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 300;
+    color: #ffffff;
+}
+nav .menu__divider {
+    mix-blend-mode: soft-light;
+    width: 2px;
+    height: 31px;
+}
+
+.subheader {
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, .6);
+}
+.subheader .container .row {
+    min-height: 84px;
+}
+
+.subheader .logo__link {
+    display: flex;
+    text-decoration: none;
+}
+.subheader .logo__img {
+    width: 32px;
+    height: 32px;
+}
+.subheader .logo__name {
+    margin-left: 9px;
+    font-size: 26px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.075em;
+    color: #ffffff;
+}
+.subheader .logo__official {
+    opacity: 0.5;
+    font-size: 13px;
+    line-height: 8px;
+    font-weight: 100;
+    color: #ffffff;
+}
+
+.subheader .call__everyday {
+    font-size: 12px;
+    font-weight: 300;
+    color: #ffffff;
+}
+.subheader .call__number {
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.subheader .order__btn {
+    width: 178px;
+    height: 52px;
+    background-image: linear-gradient(0.0deg, #1eacc7 0%, #4ce2ff 100%);
+    border: 3px;
+    border-radius: 4px;
+    box-shadow: inset 0px -3px 0px 0px rgba(0,0,0,0.11);
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
+    color: #ffffff;
+}
+
+.promo {
+    min-height: 800px;
+    height: 100%;
+    background: url('../img/bg/bg_main.jpg') center center / cover no-repeat;
+    text-align: center;
+}
+.promo .promo__title {
+    margin-top: 202px;
+    font-size: 60px;
+    /* line-height: 24px; */
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.promo .promo__subtitle {
+    color: #ffffff;
+    font-size: 36px;
+    /* line-height: 48px; */
+    font-weight: 700;
+}
+.promo .promo__desc {
+    margin-top: 23px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.promo .promo__order {
+    display: block;
+    margin: 115px auto 0 auto;
+    width: 265px;
+    height: 69px;
+    background-image: linear-gradient(0.0deg, #1eacc7 0%, #4ce2ff 100%);
+    border: none;
+    border-radius: 4px;
+    box-shadow: inset 0px -4px 0px 0px rgba(0,0,0,0.11);
+    font-size: 18px;
+    line-height: 68px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
+    color: #ffffff;
+}
+
+.preference {
+    
+    background-color: #ddd;
+    padding: 71px;
+}
+.preference .pref__btn {
+    display: block;
+    margin: 0 auto 0 auto;
+    width: 112px;
+    height: 24px;
+    background-color: #000000;
+    line-height: 24px;
+    font-size: 11px;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffffff;
+}
+.preference .pref__title {
+    margin-top: 38px;
+    font-size: 38px;
+    line-height: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    color: #222222;
+}
+.preference .row {
+    justify-content: space-between;
+}
+.preference .pref-item {
+    margin-top: 35px;
+    display: flex;
+    width: 515px;
+    padding-left: 35px;
+    min-height: 113px;
+}
+.preference .pref-item .pref__img {
+    display: flex;
+    width: 113px;
+    height: 113px;
+    background-color: #1eacc7;
+    opacity: 0.5;
+    border-radius: 50%;
+}
+.preference .pref-item .pref__icon {
+    width: 80px;
+    height: 60px;
+}
+.preference .pref-item .pref-text {
+    width: 341px;
+    margin-left: 26px;
+    height: 100%;
+}
+
+.preference .pref-item .pref-text__title {
+    font-size: 17px;
+    line-height: 19px;
+    font-weight: 400;
+    color: #1eacc7;
+}
+.preference .pref-item .pref-text__desc {
+    font-size: 15px;
+    line-height: 17px;
+    font-weight: 300;
+    color: #202020;
+    text-align: justify;
+}
