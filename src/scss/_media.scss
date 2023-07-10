@@ -1,0 +1,383 @@
+@media(max-width: 1200px) {
+    .submenu {
+        .logo__text {
+            font-size: 12px;
+        }
+    }
+    .main {
+        &__title {
+            font-size: 55px;
+        }
+    }
+    .promo {
+        padding-bottom: 40px;
+    }
+    .mobile {
+
+        &-item {
+            width: 280px;
+            height: 250px;
+        }
+    }
+    .world {
+
+    }
+}
+
+@media(max-width: 991px) { /*768px - 991px*/
+    .title-block {
+        &__title {
+            font-size: 10px;
+        }
+    }
+    nav{
+        .menu__item {
+            font-size: 13px;
+        }
+    }
+    .submenu {
+        .logo__text {
+            font-size: 9px;
+        }
+        .tel__number {
+            font-size: 21px;
+        }
+    }
+    .main {
+        padding-bottom: 90px;
+        &__title {
+            font-size: 41px;
+        }
+        &__subtitle {
+            font-size: 21px;
+        }
+        &__descr {
+            font-size: 14px;
+            margin-bottom: 70px;
+        }
+    }
+    .promo {
+        padding: 40px 0 79px 0;
+      &-item {
+        flex-direction: column;
+        align-items: center;
+        &__round {
+            margin-bottom: 20px;
+        }
+        &__descr {
+            margin-right: 30px;
+        }
+      }
+    }
+    .mobile {
+        &-item {
+            width: 200px;
+            height: 195px;
+            padding: 50px 0 35px 0;
+            &__title {
+                font-size: 15px;
+                line-height: 25px;
+            }
+        }
+    }
+    .choose {
+        &-black {
+            padding: 40px 0 0 0;
+            height: 420px;
+        }
+        &-white {
+            height: 290px;
+            &__car {
+                height: 400px;
+            }
+        }
+    }
+    .condition {
+        padding: 40px 0 79px 0;
+        
+        .condition-item__list-item {
+            line-height: 27px;
+        }
+    }
+
+    .world {
+        height: 370px;
+        &-wrapper {
+            padding: 40px 0 20px 0;
+            height: 370px;
+
+        }
+    }
+    footer {
+        padding: 0;
+        .social {
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 83px;
+            &__item {
+                margin-top: 9px;
+            }
+        }
+        .platform {
+            flex-direction: column;
+            &__item {
+                margin-top: 9px;
+            }
+        }
+    }
+}
+
+@media(max-width: 767.5px) { /*768px - 991px*/
+    nav {
+        height: 30px;
+        .hamburger {
+            display: block;
+            position: absolute;
+            right:  10px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 24px;
+            height: 12px;
+            span {
+                display: block;
+                height: 2px;
+                margin-top: 2px;
+                background-color: #fff;
+            }
+            &__cross {
+                :nth-child(1) {
+                    transform: rotate(-45deg);
+                }
+                :nth-child(2) {
+                    // margin-top: 0;
+                    display: none;
+                }
+                :nth-child(3) {
+                    margin-top: -2px;
+                    transform: rotate(45deg);
+                }
+            }
+        }
+    }
+    .menu{
+        position: fixed;
+        top: 30px;
+        right: -100%;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        background-color: rgba(33, 33, 33, .95);
+        width: 50%;
+        padding: 20px 0 20px 0;
+        transition: all 1s;
+        li {
+            width: 100%;
+            text-align: center;
+            a.menu__item {
+                display: block;
+                text-align: center;
+                padding: 4px 0;
+            }
+        }
+        &__divider {
+            height: 2px;
+            width: 10vw;
+            margin: 10px auto;
+        }
+        &__active {
+            right: 0;
+        }
+    }
+    .submenu {
+        padding: 11px 0 9px 0;
+        height: 80px;
+        .xs-hide {
+            display: none;
+        }
+        .logo {
+            width: 86%;
+        }
+        .tel {
+            
+            display: none;
+        }
+        .call {
+            .xs-show {
+                margin-top: 5px;
+                display: block;
+                font-size: 15px;
+                margin: 0 auto;
+            }
+            &__btn {
+                margin: 4px auto 0 auto;
+                width: 125px;
+                height: 35px;
+                font-size: 12px;
+                // line-height: 15px;
+                :hover {
+
+                }
+            }
+        }
+    }
+    .main {
+        margin-top: 30px;
+        padding: 133px 0 35px 0;
+        &__title {
+            font-size: 38px;;
+        }
+        &__btn {
+            margin-top: 4px;
+            width: 170px;
+            height: 45px;
+            font-size: 14px;
+            // line-height: 15px;
+            // &:hover {
+            //     margin-top: 4px;
+            //     width: 170px;
+            //     height: 45px;
+            //     font-size: 14px;
+            //     line-height: 15px;
+            // }
+        }
+    }
+    .promo {
+        padding: 22px 0 50px 0;
+        &-item {
+            &__title {
+                display: block;
+                text-align: center;
+            }
+            &__descr {
+                margin-right: 0;
+            }
+        }
+    }
+    .mobile {
+        padding: 22px 0 43px 0;
+        &-items {
+            justify-content: space-around;
+        }
+    }
+    .choose {
+
+        &-black {
+            height: 450px;
+            .title-block {
+                &__title {
+                    display: none;
+                }
+                &__subtitle {
+                    display: none;
+                }
+            }
+        }
+        &-white {
+            height: 0;
+            &__car {
+                width: 400px;
+                height: 254px;
+            }
+            &-under-wrapper {
+                top: -350px;
+
+            }
+            &__subtitle {
+                color: #fff;
+            }
+        }
+    }
+    .condition {
+        padding: 22px 0 0 0;
+    }
+    .world {
+        height: 360px;
+        background-size: auto, 360px;
+        // padding: 25px 0 30px 0;
+        &-wrapper {
+            height: 360px;
+            padding: 25px 0 30px 0;
+        }
+    }
+    footer {
+        .middle {
+            .line {
+                width: 253px;
+            }
+        }
+        .social {
+            flex-wrap: nowrap;
+            width: 100%;
+            justify-content: center;
+            position: static;
+        }
+        .platform {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            justify-content: center;
+            margin-top: 50px;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+        .xs-hide {
+            display: none;
+        }
+        .xs-show {
+            display: flex;
+        }
+    }
+}
+
+@media(max-width: 567.5px) { /*568px - 767px*/
+    .submenu {
+        height: 60px;
+        .logo {
+            &__text {
+                display: none;
+            }
+        }
+        .call {
+            .tel__number {
+                font-size: 12px;
+            }
+            &__btn {
+                width: 110px;
+                height: 22px;
+                font-size: 10px;
+            }
+        }
+    }
+    .promo {
+        &-item {
+            width: 295px;
+            margin: 26px auto 0 auto;
+        }
+    }
+    .mobile {
+        &-item {
+            width: 290px;
+            height: 254px;
+            &__title {
+                font-size: 18px;
+            }
+        }
+    }
+    .choose-white {
+        &__car {
+            width: 300px;
+            height: 190px;
+        }
+    }
+    footer {
+        .container-middle {
+            .title-list {
+                &__item {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+
+}

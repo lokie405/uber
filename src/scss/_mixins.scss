@@ -1,0 +1,155 @@
+@use 'colors.scss';
+
+
+@mixin flex-column-center($align: true, $justify: true) {
+    display: flex;
+    flex-direction: column;
+    @if ($align) {
+        align-items: center;
+    }
+    @if ($justify) {
+        justify-content: center;
+    }
+    
+}
+@mixin button-blue ($width, $height, $font-size) {
+    width: $width;
+    height: $height;
+    border-radius: 5px;
+    background-image: linear-gradient(0.0deg, #1eacc7 0%, #4ce2ff 100%);
+    font-size: $font-size;
+    border: 3px solid rgba(0,0,0,0.06);
+    font-weight: 400;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
+    color: #ffffff;
+    &:hover {
+        @media(min-width: 767.5px) {
+            background-image: none;
+            background-color: #fff;
+            border: 4px solid colors.$blue ;
+            font-weight: 900;
+            color: darkcyan;      
+            transition: 0.5s all;
+            
+        }
+    }
+}
+
+@mixin title-block ($theme, $subtitle){
+    $background-color: none;
+    $color: none;
+    $title-color: none;
+    @if ($theme == black) {
+        $background-color: black;
+        $color: white;
+        $title-color: black;
+    } @else if ($theme == white) {
+        $background-color: white;
+        $color: black;
+        $title-color: white;
+    }
+    .title-block {
+        text-align: center;
+        &__rect {
+            margin: 0 auto;
+            width: 112px;
+            height: 24px;
+            font-size: 11px;
+            font-weight: 100;
+            text-transform: uppercase;
+            line-height: 24px;
+            background-color: $background-color;
+            color: $color;
+            
+        }
+        &__title {
+            margin-top: 38px;
+            font-size: 38px;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: $title-color;
+            @media(max-width: 991px) {
+                margin-top: 40px;
+                font-size: 30px;
+            }
+            @media(max-width: 768px) {
+                margin-top: 35px;
+                font-size: 25px;
+            }
+        }
+        @if ($subtitle) {
+            &__subtitle {
+                margin-top: 19px;
+                font-size: 17px;
+                line-height: 21px;
+                font-weight: 400;
+                color: $title-color;
+                @media(max-width: 991px) {
+                    font-size: 14px;
+                    line-height: 19px;
+                }
+                @media(max-width: 768px) {
+                    font-size: 12px;
+                    line-height: 17px;
+                }
+            }
+        }
+    }
+}
+
+@mixin mobile-bg {
+    .mobile-item {
+        &__1 {
+            background-image: url('../img/picture/mobile_1.jpg');
+        }
+        &__2 {
+            background-image: url('../img/picture/mobile_2.jpg');
+        }
+        &__3 {
+            background-image: url('../img/picture/mobile_3.jpg');
+        }
+        &__4 {
+            background-image: url('../img/picture/mobile_4.jpg');
+        }
+        &__5 {
+            background-image: url('../img/picture/mobile_5.jpg');
+        }
+        &__6 {
+            background-image: url('../img/picture/mobile_6.jpg');
+        }
+    }
+}
+
+@mixin plus_create($side) {
+    @if($side == vertical) {
+        width: 2px;
+        height: 14px;
+    } @else {
+        width: 14px;
+        height: 2px;
+    }
+    content: '';
+    background-color: #1eacc7;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+@mixin done-icon ($color) {
+    @if ($color == blue) {
+        background-image: url(../img/icon/done_blue.png);
+    } @else {
+        background-image: url(../img/icon/done_red.png);
+    }
+    content: '';
+    width: 21px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 10px;
+    position: absolute;
+    left: -31px;
+    top: 4px;
+}

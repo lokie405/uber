@@ -1,0 +1,169 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?e1dv51');
+  src:  url('../fonts/icomoon.eot?e1dv51#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?e1dv51') format('truetype'),
+    url('../fonts/icomoon.woff?e1dv51') format('woff'),
+    url('../fonts/icomoon.svg?e1dv51#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-microsoft-logo-svgrepo-com .path1:before {
+  content: "\e904";
+  color: rgb(112, 109, 110);
+}
+.icon-microsoft-logo-svgrepo-com .path2:before {
+  content: "\e905";
+  margin-left: -1em;
+  color: rgb(241, 81, 27);
+}
+.icon-microsoft-logo-svgrepo-com .path3:before {
+  content: "\e906";
+  margin-left: -1em;
+  color: rgb(128, 204, 40);
+}
+.icon-microsoft-logo-svgrepo-com .path4:before {
+  content: "\e907";
+  margin-left: -1em;
+  color: rgb(0, 173, 239);
+}
+.icon-microsoft-logo-svgrepo-com .path5:before {
+  content: "\e908";
+  margin-left: -1em;
+  color: rgb(251, 188, 9);
+}
+.icon-google-play-badge-logo-svgrepo-com .path1:before {
+  content: "\e909";
+  color: rgb(0, 0, 0);
+}
+.icon-google-play-badge-logo-svgrepo-com .path2:before {
+  content: "\e90a";
+  margin-left: -1em;
+  color: rgb(166, 166, 166);
+}
+.icon-google-play-badge-logo-svgrepo-com .path3:before {
+  content: "\e90b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-google-play-badge-logo-svgrepo-com .path4:before {
+  content: "\e90c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-google-play-badge-logo-svgrepo-com .path5:before {
+  content: "\e90d";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-google-play-badge-logo-svgrepo-com .path6:before {
+  content: "\e90e";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-google-play-badge-logo-svgrepo-com .path7:before {
+  content: "\e90f";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-google-play-badge-logo-svgrepo-com .path8:before {
+  content: "\e910";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-google-play-badge-logo-svgrepo-com .path9:before {
+  content: "\e911";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.2;
+}
+.icon-google-play-badge-logo-svgrepo-com .path10:before {
+  content: "\e912";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.12;
+}
+.icon-google-play-badge-logo-svgrepo-com .path11:before {
+  content: "\e913";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+  opacity: 0.25;
+}
+.icon-download-on-the-app-store-apple-logo-svgrepo-com .path1:before {
+  content: "\e914";
+  color: rgb(255, 255, 255);
+}
+.icon-download-on-the-app-store-apple-logo-svgrepo-com .path2:before {
+  content: "\e915";
+  margin-left: -1em;
+  color: rgb(166, 166, 166);
+}
+.icon-download-on-the-app-store-apple-logo-svgrepo-com .path3:before {
+  content: "\e916";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-download-on-the-app-store-apple-logo-svgrepo-com .path4:before {
+  content: "\e917";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-download-on-the-app-store-apple-logo-svgrepo-com .path5:before {
+  content: "\e918";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-download-on-the-app-store-apple-logo-svgrepo-com .path6:before {
+  content: "\e919";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-download-on-the-app-store-apple-logo-svgrepo-com .path7:before {
+  content: "\e91a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-instagram:before {
+  content: "\e903";
+}
+.icon-linkedin:before {
+  content: "\e900";
+}
+.icon-brand:before {
+  content: "\e900";
+}
+.icon-social:before {
+  content: "\e900";
+}
+.icon-twitter:before {
+  content: "\e901";
+}
+.icon-brand1:before {
+  content: "\e901";
+}
+.icon-tweet:before {
+  content: "\e901";
+}
+.icon-social1:before {
+  content: "\e901";
+}
+.icon-facebook:before {
+  content: "\e902";
+}
